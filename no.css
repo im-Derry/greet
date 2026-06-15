@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paRent{
+    width: 500px;
+    height: 400px;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: -15px 0px 20px rgba(0,0,0,0.5);
+}
+.BUTTON{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+    margin-top: 20px;
+    text-align: center;
+
+
+}
+
+a{
+    background-color: black;
+    color: gold;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+

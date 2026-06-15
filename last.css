@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    
+.Copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction:column ;
+    gap: 15px;
+}
+
+    .Tiger{
+    background-color:orangered;
+    color:#fab460;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 120px;
+    border-radius: 12px;
+    box-shadow: -15px 0px 20px rgba(0,0,0,0.5);
+    text-align: center;
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+
+.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+a{
+    background-color: black;
+    color: gold;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+
+

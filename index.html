@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="Parent">
+        <div class="Child" id="box1">
+             <h2>Hi... It's been a long time since we've a conversation...</h2>
+
+            </div>
+        <div class="Child" id="box2">
+            <h2>Toh bataye zara, kaisi h aap..?? Aur kaisa chal rha h sb kuchh..??</h2>
+
+            </div>
+        <div class="Child" id="box3">
+            <h2>Mera bahut mann kr rha h aapse baat krne ka.. Toh baat ho skti h kya..???</h2>
+        </div>
+
+        <div class="Button" id="buttons">
+            <a href="yes.html">Hn..</a>
+            <a href="no.html">Naah..</a>
+        </div>
+    </div>
+
+
+                <script>
+
+        setTimeout(() => {
+            document.getElementById("box1").classList.add("show");
+        }, 2000);
+
+        setTimeout(() => {
+            document.getElementById("box2").classList.add("show");
+        }, 5000);
+
+        setTimeout(() => {
+            document.getElementById("box3").classList.add("show");
+        }, 8000);
+
+        setTimeout(() => {
+    document.getElementById("buttons").classList.add("show-btn");
+}, 10000);
+
+            </script>
+
+
+    </body>
+    </html>
